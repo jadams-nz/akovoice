@@ -1,0 +1,199 @@
+{
+  "schema_version": "0.1",
+  "rubric_id": "nz.example.welding.prestart.v1",
+  "version": "1.0.0",
+  "title": "Pre-Start Safety Check — MIG Welding",
+  "description": "A formative check of a vocational welding student's understanding of pre-start safety procedures before operating MIG welding equipment. Designed for beside-the-workstation use as a readiness check before supervised practical work.",
+  "language": "en-NZ",
+  "mode": "socratic",
+  "sub_mode": "formative",
+  "judgement_scheme": {
+    "type": "four_level",
+    "levels": ["not_yet", "achieved", "merit", "excellence"],
+    "level_labels": {
+      "not_yet": "Not yet achieved",
+      "achieved": "Achieved",
+      "merit": "Merit",
+      "excellence": "Excellence"
+    },
+    "pass_threshold": "achieved",
+    "holistic_judgement_required": false
+  },
+  "global_descriptors": {
+    "not_yet": "The learner is not yet ready to operate MIG welding equipment safely without further preparation.",
+    "achieved": "The learner demonstrates understanding of the core pre-start safety requirements and is ready for supervised practical work.",
+    "merit": "The learner demonstrates a clear understanding of safety requirements and can adapt their approach for different materials and contexts.",
+    "excellence": "The learner demonstrates comprehensive understanding of safety requirements with reference to manufacturer documentation and workshop standard operating procedures."
+  },
+  "jurisdiction": {
+    "type": "economy",
+    "code": "NZ",
+    "name": "New Zealand",
+    "notes": "Operates under New Zealand qualification framework and Health and Safety at Work Act 2015."
+  },
+  "regulatory_body": {
+    "name": "NZQA",
+    "code": "NZQA",
+    "scope": "national",
+    "url": "https://www.nzqa.govt.nz/"
+  },
+  "occupational_classification": {
+    "isco_08": "7212",
+    "anzsco": "322313",
+    "tvetipedia_terms": ["welding", "metal fabrication"]
+  },
+  "framework_alignment": {
+    "national_framework": "NZQF",
+    "national_level": "NZQF-3",
+    "unit_standard_code": "NZQA-US-EXAMPLE",
+    "isced_level": "ISCED-3"
+  },
+  "agent_configuration": {
+    "register": "conversational",
+    "cultural_framing": "New Zealand vocational workshop. Address the learner directly, using 'you' not 'the candidate'. Allow pauses for thinking. Do not rush.",
+    "opening_statement": "Kia ora. I'm going to ask you three quick questions about getting ready to use the MIG welder. Take your time. There are no trick questions — I just want to hear how you'd approach it. Ready?",
+    "closing_statement": "Thanks for talking through that with me. I'll share what we covered with your tutor so they can support your next steps."
+  },
+  "criteria": [
+    {
+      "criterion_id": "ppe",
+      "name": "Personal Protective Equipment",
+      "description": "Learner identifies and explains the required PPE for MIG welding.",
+      "descriptors": {
+        "not_yet": "Cannot identify the required PPE or identifies only one item.",
+        "achieved": "Identifies the core PPE: welding helmet with appropriate shade, welding gloves, long-sleeved natural-fibre clothing, closed-toe leather footwear. Can explain why each item is used.",
+        "merit": "Identifies additional context-specific PPE such as respiratory protection for galvanised materials, and explains the specific hazard each item mitigates.",
+        "excellence": "Identifies PPE with reference to manufacturer safety data sheets or workshop SOPs, and explains how PPE choice changes for different materials or environments."
+      },
+      "opening_question": "Before you start welding today, walk me through the PPE you'd put on and why.",
+      "probe_prompts": [
+        {
+          "trigger": "incomplete",
+          "prompt": "What about protecting your arms and clothing?"
+        },
+        {
+          "trigger": "incomplete",
+          "prompt": "Is there anything else you'd wear if you were welding galvanised steel?"
+        },
+        {
+          "trigger": "unclear",
+          "prompt": "Can you explain that one in a bit more detail?"
+        }
+      ],
+      "evidence_indicators": [
+        "welding helmet",
+        "auto-darkening",
+        "shade",
+        "gloves",
+        "leather",
+        "long sleeves",
+        "natural fibre",
+        "cotton",
+        "closed-toe boots",
+        "respirator",
+        "fume"
+      ],
+      "non_revealing": true
+    },
+    {
+      "criterion_id": "workspace",
+      "name": "Workspace Preparation",
+      "description": "Learner describes how to prepare the welding workspace for safe operation.",
+      "descriptors": {
+        "not_yet": "Cannot describe workspace preparation or mentions only one step.",
+        "achieved": "Describes clearing flammable materials, checking ventilation, ensuring a fire extinguisher is accessible, and checking the earth clamp connection.",
+        "merit": "Additionally describes checking for hazards to other workers in the vicinity and using welding screens where appropriate.",
+        "excellence": "Describes workspace preparation with reference to the hazard hierarchy or risk assessment process used in the workshop."
+      },
+      "opening_question": "How do you get the workspace ready before you start welding?",
+      "probe_prompts": [
+        {
+          "trigger": "incomplete",
+          "prompt": "What about fire risks?"
+        },
+        {
+          "trigger": "incomplete",
+          "prompt": "Who else might be affected by the welding, and what would you do about that?"
+        }
+      ],
+      "evidence_indicators": [
+        "clear",
+        "flammable",
+        "ventilation",
+        "extract",
+        "fire extinguisher",
+        "earth",
+        "clamp",
+        "screen",
+        "curtain"
+      ],
+      "non_revealing": true
+    },
+    {
+      "criterion_id": "equipment_check",
+      "name": "Equipment Check",
+      "description": "Learner describes the pre-start check of the welding equipment itself.",
+      "descriptors": {
+        "not_yet": "Cannot describe equipment checks or describes only a superficial visual check.",
+        "achieved": "Describes checking the gas bottle pressure and regulator, inspecting the torch and cables for damage, confirming the wire feed is loaded, and checking polarity settings for the material.",
+        "merit": "Additionally describes confirming the correct consumables (wire, gas mix) for the material being welded.",
+        "excellence": "Describes equipment checks in the context of the specific welding procedure being followed, including parameter settings appropriate to material thickness."
+      },
+      "opening_question": "Walk me through your pre-start check of the MIG welder itself.",
+      "probe_prompts": [
+        {
+          "trigger": "incomplete",
+          "prompt": "What about the gas?"
+        },
+        {
+          "trigger": "incomplete",
+          "prompt": "What are you looking for when you inspect the torch and cables?"
+        }
+      ],
+      "evidence_indicators": [
+        "gas bottle",
+        "pressure",
+        "regulator",
+        "torch",
+        "cable",
+        "damage",
+        "wire feed",
+        "polarity",
+        "settings",
+        "voltage",
+        "amperage"
+      ],
+      "non_revealing": true
+    }
+  ],
+  "session_constraints": {
+    "max_duration_minutes": 10,
+    "max_probes_per_criterion": 2,
+    "min_evidence_threshold": "sufficient_coverage",
+    "allow_topic_drift": false,
+    "allow_learner_questions": true
+  },
+  "governance": {
+    "consent_required": true,
+    "consent_statement": "This is a formative practice session with an AI assistant. Your voice and responses will be recorded and shared with your tutor to help them support your learning. This is not your assessment. You can stop the session at any time. Your recording will be kept for 30 days and then deleted. Do you agree to continue?",
+    "data_retention_days": 30,
+    "data_jurisdiction": "NZ",
+    "data_residency": "NZ",
+    "data_sovereignty_notes": "Recordings and transcripts stored within Aotearoa New Zealand data residency. Compliant with Privacy Act 2020. No data used for model training.",
+    "right_to_human_assessment": true
+  },
+  "metadata": {
+    "authors": [
+      {
+        "name": "Example author",
+        "role": "author",
+        "affiliation": "Example institution"
+      }
+    ],
+    "institution": "Example institution",
+    "created": "2026-04-25",
+    "last_updated": "2026-04-25",
+    "content_licence": "CC-BY-4.0",
+    "pilot_status": "draft"
+  }
+}
