@@ -31,7 +31,7 @@ record of moderation.
 
 ## 3.  Two ways of running Socratic mode
 
-*Structured.* An authored question bank with probes and it can run offline, useful for noisy environments.
+*Structured.* An authored question bank with probes and it can run offline.
 
 *Live.* A real-time conversational agent bounded by the rubric. Online or offline modes. Live voice requires hardware with sufficient memory to run natural language dialogue.
 
