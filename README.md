@@ -6,7 +6,7 @@ AkoVoice conducts competency-based assessment through natural voice dialogue (or
 
 ## What AkoVoice is
 
-AkoVoice is an open reference implementation using open licensed software, for conducting rubric-driven voice assessment of learners. It combines three interaction modes designed to support deployment across different languages, voice engines, and competency frameworks.
+AkoVoice is an open approach, with a working implementation built on openly licensed software, for rubric-driven voice assessment of learners. It combines three interaction modes designed to support deployment across different languages, voice engines and competency frameworks.
 
 It is offered as a documented working example of using voice assessment, released openly for others to adapt or replicate. It is not a productised or SaaS platform.
 
